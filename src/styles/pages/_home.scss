@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.card {
+  display: inline-block;
+  max-width: 25%;
+  font-size: 0;
+  vertical-align: top;
+  padding: 10px;
+  &__description {
+    font-size: 14px;
+  }
+  &__image {
+    max-width: 100%;
+    height: auto;
+  }
+}
