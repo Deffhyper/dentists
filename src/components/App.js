@@ -38,7 +38,7 @@ export default class App extends React.Component {
 					return (
 						<div key={item.id} className="card">
 							<img className="card__image" src={item.image} alt=""/>
-							<p className="card__description">{item.description}</p>
+							<p className="card__description">{item.company_name}</p>
 						</div>
 					)
 				})}

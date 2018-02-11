@@ -3,5 +3,7 @@
  */
 body {
   color: $text-color;
-
+  position: relative;
+  font-family: $text-font-stack;
+  font-size: 14px;
 }

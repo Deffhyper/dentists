@@ -19,6 +19,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  outline: none;
 }
 
 /**
@@ -32,4 +33,10 @@ a {
     color: $text-color;
     text-decoration: underline;
   }
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
 }

@@ -1,3 +1,28 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+.header {
+  background-color: #87b448;
+  border-bottom: 2px solid #71973c;
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  min-width: 970px;
+  padding: 0 0 14px;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-search {
+  flex: 1 1 auto;
+}
